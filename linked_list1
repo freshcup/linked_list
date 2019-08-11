@@ -16,7 +16,7 @@ class Stack
         @head = nil
     end
 
-    # Push a value onto the stack
+    
     def push(value)
     	@head = LinkedListNode.new(value, @head)
     end
